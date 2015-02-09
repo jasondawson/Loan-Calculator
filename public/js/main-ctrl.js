@@ -13,7 +13,7 @@ function MainCtrl ($scope, bankService) {
 	})
 
  $scope.calculatePayment = function() {
- 	$scope.monthly_payment = (Number($scope.principal) + (Number($scope.principal) * (Number($scope.interest_rate) / 100) * 48)) / 48;
+ 	$scope.monthly_payment = (Number($scope.principal) + (Number($scope.principal) * (Number($scope.interest_rate) / 100) * 4)) / 48;
  	console.log($scope.monthly_payment);
  }
 
